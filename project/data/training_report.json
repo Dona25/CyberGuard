@@ -1,0 +1,185 @@
+{
+  "domain": "Cybersecurity Awareness",
+  "experiment": "baseline",
+  "tokenizer": "character-level",
+  "records_total": 2500,
+  "train_records": 2000,
+  "validation_records": 250,
+  "test_records": 250,
+  "split": "80/10/10",
+  "device": "cpu",
+  "parameters": 427834,
+  "training_seconds": 826.47,
+  "best_validation_loss": 0.8900532782077789,
+  "test_loss": 0.8985819686204195,
+  "history": [
+    {
+      "step": 1,
+      "train_loss": 4.180935382843018,
+      "validation_loss": 4.11610426902771
+    },
+    {
+      "step": 100,
+      "train_loss": 2.423757553100586,
+      "validation_loss": 2.3425029039382936
+    },
+    {
+      "step": 200,
+      "train_loss": 2.2662272453308105,
+      "validation_loss": 2.17897230386734
+    },
+    {
+      "step": 300,
+      "train_loss": 2.0894956588745117,
+      "validation_loss": 2.082571280002594
+    },
+    {
+      "step": 400,
+      "train_loss": 2.0220866203308105,
+      "validation_loss": 2.0105562269687653
+    },
+    {
+      "step": 500,
+      "train_loss": 2.0055904388427734,
+      "validation_loss": 1.9422662079334259
+    },
+    {
+      "step": 600,
+      "train_loss": 1.9745203256607056,
+      "validation_loss": 1.8830320537090302
+    },
+    {
+      "step": 700,
+      "train_loss": 1.8415379524230957,
+      "validation_loss": 1.822151094675064
+    },
+    {
+      "step": 800,
+      "train_loss": 1.8401318788528442,
+      "validation_loss": 1.7706560730934142
+    },
+    {
+      "step": 900,
+      "train_loss": 1.8444496393203735,
+      "validation_loss": 1.711007785797119
+    },
+    {
+      "step": 1000,
+      "train_loss": 1.7155909538269043,
+      "validation_loss": 1.6579150080680847
+    },
+    {
+      "step": 1100,
+      "train_loss": 1.6256675720214844,
+      "validation_loss": 1.611981338262558
+    },
+    {
+      "step": 1200,
+      "train_loss": 1.5998092889785767,
+      "validation_loss": 1.5590425312519074
+    },
+    {
+      "step": 1300,
+      "train_loss": 1.8175772428512573,
+      "validation_loss": 1.5135394990444184
+    },
+    {
+      "step": 1400,
+      "train_loss": 1.5342600345611572,
+      "validation_loss": 1.4713829934597016
+    },
+    {
+      "step": 1500,
+      "train_loss": 1.554574966430664,
+      "validation_loss": 1.428208863735199
+    },
+    {
+      "step": 1600,
+      "train_loss": 1.5312471389770508,
+      "validation_loss": 1.3843705177307128
+    },
+    {
+      "step": 1700,
+      "train_loss": 1.4112194776535034,
+      "validation_loss": 1.3355216205120086
+    },
+    {
+      "step": 1800,
+      "train_loss": 1.2716230154037476,
+      "validation_loss": 1.292757260799408
+    },
+    {
+      "step": 1900,
+      "train_loss": 1.4622018337249756,
+      "validation_loss": 1.2531296908855438
+    },
+    {
+      "step": 2000,
+      "train_loss": 1.2556214332580566,
+      "validation_loss": 1.2164190769195558
+    },
+    {
+      "step": 2100,
+      "train_loss": 1.3541909456253052,
+      "validation_loss": 1.1696903824806213
+    },
+    {
+      "step": 2200,
+      "train_loss": 1.1794239282608032,
+      "validation_loss": 1.134014117717743
+    },
+    {
+      "step": 2300,
+      "train_loss": 1.1171002388000488,
+      "validation_loss": 1.1017484486103057
+    },
+    {
+      "step": 2400,
+      "train_loss": 1.1892743110656738,
+      "validation_loss": 1.0687581211328507
+    },
+    {
+      "step": 2500,
+      "train_loss": 1.1655287742614746,
+      "validation_loss": 1.0327536433935165
+    },
+    {
+      "step": 2600,
+      "train_loss": 1.0614436864852905,
+      "validation_loss": 1.000265422463417
+    },
+    {
+      "step": 2700,
+      "train_loss": 1.0245336294174194,
+      "validation_loss": 0.9723705381155014
+    },
+    {
+      "step": 2800,
+      "train_loss": 1.0243688821792603,
+      "validation_loss": 0.9401778817176819
+    },
+    {
+      "step": 2900,
+      "train_loss": 1.1064634323120117,
+      "validation_loss": 0.917716971039772
+    },
+    {
+      "step": 3000,
+      "train_loss": 1.1130197048187256,
+      "validation_loss": 0.8900532782077789
+    }
+  ],
+  "config": {
+    "experiment": "baseline",
+    "steps": 3000,
+    "batch_size": 16,
+    "context_length": 128,
+    "embedding_dim": 128,
+    "heads": 4,
+    "layers": 3,
+    "ffn_dim": 256,
+    "dropout": 0.1,
+    "lr": 0.0003,
+    "eval_every": 100
+  }
+}
